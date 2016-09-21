@@ -1,0 +1,1006 @@
+fileFormatVersion: 2
+guid: 3fbce4b82762eb6488096179f9628b02
+timeCreated: 1454199487
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: chevalier_skeleton:bassin1
+    100002: chevalier_skeleton:buste
+    100004: chevalier_skeleton:Character1_Head
+    100006: chevalier_skeleton:Character1_Hips
+    100008: chevalier_skeleton:Character1_LeftArm
+    100010: chevalier_skeleton:Character1_LeftFoot
+    100012: chevalier_skeleton:Character1_LeftForeArm
+    100014: chevalier_skeleton:Character1_LeftHand
+    100016: chevalier_skeleton:Character1_LeftLeg
+    100018: chevalier_skeleton:Character1_LeftUpLeg
+    100020: chevalier_skeleton:Character1_Neck
+    100022: chevalier_skeleton:Character1_RightArm
+    100024: chevalier_skeleton:Character1_RightFoot
+    100026: chevalier_skeleton:Character1_RightForeArm
+    100028: chevalier_skeleton:Character1_RightHand
+    100030: chevalier_skeleton:Character1_RightLeg
+    100032: chevalier_skeleton:Character1_RightUpLeg
+    100034: chevalier_skeleton:Character1_Spine
+    100036: chevalier_skeleton:Character1_Spine1
+    100038: chevalier_skeleton:head
+    100040: chevalier_skeleton:head2
+    100042: chevalier_skeleton:Larm
+    100044: chevalier_skeleton:Lcuisse
+    100046: chevalier_skeleton:Lfoot
+    100048: chevalier_skeleton:Lforearm
+    100050: chevalier_skeleton:Lgenoux
+    100052: chevalier_skeleton:Lhand
+    100054: chevalier_skeleton:Rarm
+    100056: chevalier_skeleton:Rcuisse
+    100058: chevalier_skeleton:Rfoot
+    100060: chevalier_skeleton:Rforearm
+    100062: chevalier_skeleton:Rgenoux
+    100064: chevalier_skeleton:Rhand
+    100066: //RootNode
+    100068: sword:pCube1
+    100070: sword:pCube2
+    400000: chevalier_skeleton:bassin1
+    400002: chevalier_skeleton:buste
+    400004: chevalier_skeleton:Character1_Head
+    400006: chevalier_skeleton:Character1_Hips
+    400008: chevalier_skeleton:Character1_LeftArm
+    400010: chevalier_skeleton:Character1_LeftFoot
+    400012: chevalier_skeleton:Character1_LeftForeArm
+    400014: chevalier_skeleton:Character1_LeftHand
+    400016: chevalier_skeleton:Character1_LeftLeg
+    400018: chevalier_skeleton:Character1_LeftUpLeg
+    400020: chevalier_skeleton:Character1_Neck
+    400022: chevalier_skeleton:Character1_RightArm
+    400024: chevalier_skeleton:Character1_RightFoot
+    400026: chevalier_skeleton:Character1_RightForeArm
+    400028: chevalier_skeleton:Character1_RightHand
+    400030: chevalier_skeleton:Character1_RightLeg
+    400032: chevalier_skeleton:Character1_RightUpLeg
+    400034: chevalier_skeleton:Character1_Spine
+    400036: chevalier_skeleton:Character1_Spine1
+    400038: chevalier_skeleton:head
+    400040: chevalier_skeleton:head2
+    400042: chevalier_skeleton:Larm
+    400044: chevalier_skeleton:Lcuisse
+    400046: chevalier_skeleton:Lfoot
+    400048: chevalier_skeleton:Lforearm
+    400050: chevalier_skeleton:Lgenoux
+    400052: chevalier_skeleton:Lhand
+    400054: chevalier_skeleton:Rarm
+    400056: chevalier_skeleton:Rcuisse
+    400058: chevalier_skeleton:Rfoot
+    400060: chevalier_skeleton:Rforearm
+    400062: chevalier_skeleton:Rgenoux
+    400064: chevalier_skeleton:Rhand
+    400066: //RootNode
+    400068: sword:pCube1
+    400070: sword:pCube2
+    2300000: chevalier_skeleton:bassin1
+    2300002: chevalier_skeleton:buste
+    2300004: chevalier_skeleton:head
+    2300006: chevalier_skeleton:head2
+    2300008: chevalier_skeleton:Larm
+    2300010: chevalier_skeleton:Lcuisse
+    2300012: chevalier_skeleton:Lfoot
+    2300014: chevalier_skeleton:Lforearm
+    2300016: chevalier_skeleton:Lgenoux
+    2300018: chevalier_skeleton:Lhand
+    2300020: chevalier_skeleton:Rarm
+    2300022: chevalier_skeleton:Rcuisse
+    2300024: chevalier_skeleton:Rfoot
+    2300026: chevalier_skeleton:Rforearm
+    2300028: chevalier_skeleton:Rgenoux
+    2300030: chevalier_skeleton:Rhand
+    2300032: sword:pCube1
+    2300034: sword:pCube2
+    3300000: chevalier_skeleton:bassin1
+    3300002: chevalier_skeleton:buste
+    3300004: chevalier_skeleton:head
+    3300006: chevalier_skeleton:head2
+    3300008: chevalier_skeleton:Larm
+    3300010: chevalier_skeleton:Lcuisse
+    3300012: chevalier_skeleton:Lfoot
+    3300014: chevalier_skeleton:Lforearm
+    3300016: chevalier_skeleton:Lgenoux
+    3300018: chevalier_skeleton:Lhand
+    3300020: chevalier_skeleton:Rarm
+    3300022: chevalier_skeleton:Rcuisse
+    3300024: chevalier_skeleton:Rfoot
+    3300026: chevalier_skeleton:Rforearm
+    3300028: chevalier_skeleton:Rgenoux
+    3300030: chevalier_skeleton:Rhand
+    3300032: sword:pCube1
+    3300034: sword:pCube2
+    4300000: chevalier_skeleton:Lfoot
+    4300002: chevalier_skeleton:Lgenoux
+    4300004: chevalier_skeleton:Lcuisse
+    4300006: chevalier_skeleton:Rgenoux
+    4300008: chevalier_skeleton:Rfoot
+    4300010: chevalier_skeleton:Rcuisse
+    4300012: chevalier_skeleton:Lforearm
+    4300014: chevalier_skeleton:Lhand
+    4300016: chevalier_skeleton:Larm
+    4300018: chevalier_skeleton:Rarm
+    4300020: chevalier_skeleton:Rhand
+    4300022: sword:pCube2
+    4300024: sword:pCube1
+    4300026: chevalier_skeleton:Rforearm
+    4300028: chevalier_skeleton:head2
+    4300030: chevalier_skeleton:head
+    4300032: chevalier_skeleton:buste
+    4300034: chevalier_skeleton:bassin1
+    7400000: Knight_hit
+    7400002: Knight_idle
+    7400004: Knight_use
+    7400006: Knight_dash
+    7400008: Knight_death
+    7400010: Knight_stun_init
+    7400012: Knight_stun_idle
+    7400014: Knight_hurt
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Knight_hit
+      takeName: Take 001
+      firstFrame: 240
+      lastFrame: 266
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:bassin1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Character1_LeftFoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Character1_LeftFoot/chevalier_skeleton:Lfoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Lgenoux
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Lcuisse
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Character1_RightFoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Character1_RightFoot/chevalier_skeleton:Rfoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Rgenoux
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Rcuisse
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:buste
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Character1_LeftHand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Character1_LeftHand/chevalier_skeleton:Lhand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Lforearm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Larm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head/chevalier_skeleton:head
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head/chevalier_skeleton:head2
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/chevalier_skeleton:Rhand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/sword:pCube2
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/sword:pCube2/sword:pCube1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Rforearm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Rarm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Knight_idle
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:bassin1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Character1_LeftFoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Character1_LeftFoot/chevalier_skeleton:Lfoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Lgenoux
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Lcuisse
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Character1_RightFoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Character1_RightFoot/chevalier_skeleton:Rfoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Rgenoux
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Rcuisse
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:buste
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Character1_LeftHand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Character1_LeftHand/chevalier_skeleton:Lhand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Lforearm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Larm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head/chevalier_skeleton:head
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head/chevalier_skeleton:head2
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/chevalier_skeleton:Rhand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/sword:pCube2
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/sword:pCube2/sword:pCube1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Rforearm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Rarm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Knight_use
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:bassin1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Character1_LeftFoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Character1_LeftFoot/chevalier_skeleton:Lfoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Lgenoux
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Lcuisse
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Character1_RightFoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Character1_RightFoot/chevalier_skeleton:Rfoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Rgenoux
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Rcuisse
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:buste
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Character1_LeftHand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Character1_LeftHand/chevalier_skeleton:Lhand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Lforearm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Larm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head/chevalier_skeleton:head
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head/chevalier_skeleton:head2
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/chevalier_skeleton:Rhand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/sword:pCube2
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/sword:pCube2/sword:pCube1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Rforearm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Rarm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Knight_dash
+      takeName: Take 001
+      firstFrame: 220
+      lastFrame: 225
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:bassin1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Character1_LeftFoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Character1_LeftFoot/chevalier_skeleton:Lfoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Lgenoux
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Lcuisse
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Character1_RightFoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Character1_RightFoot/chevalier_skeleton:Rfoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Rgenoux
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Rcuisse
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:buste
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Character1_LeftHand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Character1_LeftHand/chevalier_skeleton:Lhand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Lforearm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Larm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head/chevalier_skeleton:head
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head/chevalier_skeleton:head2
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/chevalier_skeleton:Rhand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/sword:pCube2
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/sword:pCube2/sword:pCube1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Rforearm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Rarm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Knight_death
+      takeName: Take 001
+      firstFrame: 180
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:bassin1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Character1_LeftFoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Character1_LeftFoot/chevalier_skeleton:Lfoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Lgenoux
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Lcuisse
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Character1_RightFoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Character1_RightFoot/chevalier_skeleton:Rfoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Rgenoux
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Rcuisse
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:buste
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Character1_LeftHand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Character1_LeftHand/chevalier_skeleton:Lhand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Lforearm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Larm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head/chevalier_skeleton:head
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head/chevalier_skeleton:head2
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/chevalier_skeleton:Rhand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/sword:pCube2
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/sword:pCube2/sword:pCube1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Rforearm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Rarm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Knight_stun_init
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 121
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:bassin1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Character1_LeftFoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Character1_LeftFoot/chevalier_skeleton:Lfoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Lgenoux
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Lcuisse
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Character1_RightFoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Character1_RightFoot/chevalier_skeleton:Rfoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Rgenoux
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Rcuisse
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:buste
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Character1_LeftHand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Character1_LeftHand/chevalier_skeleton:Lhand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Lforearm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Larm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head/chevalier_skeleton:head
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head/chevalier_skeleton:head2
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/chevalier_skeleton:Rhand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/sword:pCube2
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/sword:pCube2/sword:pCube1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Rforearm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Rarm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Knight_stun_idle
+      takeName: Take 001
+      firstFrame: 122
+      lastFrame: 167
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:bassin1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Character1_LeftFoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Character1_LeftFoot/chevalier_skeleton:Lfoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Lgenoux
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Lcuisse
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Character1_RightFoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Character1_RightFoot/chevalier_skeleton:Rfoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Rgenoux
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Rcuisse
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:buste
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Character1_LeftHand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Character1_LeftHand/chevalier_skeleton:Lhand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Lforearm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Larm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head/chevalier_skeleton:head
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head/chevalier_skeleton:head2
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/chevalier_skeleton:Rhand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/sword:pCube2
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/sword:pCube2/sword:pCube1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Rforearm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Rarm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Knight_hurt
+      takeName: Take 001
+      firstFrame: 180
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:bassin1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Character1_LeftFoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Character1_LeftFoot/chevalier_skeleton:Lfoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Character1_LeftLeg/chevalier_skeleton:Lgenoux
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_LeftUpLeg/chevalier_skeleton:Lcuisse
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Character1_RightFoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Character1_RightFoot/chevalier_skeleton:Rfoot
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Character1_RightLeg/chevalier_skeleton:Rgenoux
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_RightUpLeg/chevalier_skeleton:Rcuisse
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:buste
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Character1_LeftHand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Character1_LeftHand/chevalier_skeleton:Lhand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Character1_LeftForeArm/chevalier_skeleton:Lforearm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_LeftArm/chevalier_skeleton:Larm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head/chevalier_skeleton:head
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_Neck/chevalier_skeleton:Character1_Head/chevalier_skeleton:head2
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/chevalier_skeleton:Rhand
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/sword:pCube2
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Character1_RightHand/sword:pCube2/sword:pCube1
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Character1_RightForeArm/chevalier_skeleton:Rforearm
+        weight: 1
+      - path: chevalier_skeleton:Character1_Hips/chevalier_skeleton:Character1_Spine/chevalier_skeleton:Character1_Spine1/chevalier_skeleton:Character1_RightArm/chevalier_skeleton:Rarm
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
