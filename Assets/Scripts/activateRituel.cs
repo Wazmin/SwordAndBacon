@@ -7,23 +7,6 @@ public class activateRituel : MonoBehaviour {
     private RituelManager rm;
     private int indice;
 
-
-    // si le joueur est dans la zone et clique sur 5
-    // il active une rune
-    void OnTriggerStay(Collider other)
-    {
-        if(other.tag == "Player")
-        {
-			if (Input.GetButton(other.GetComponent<KnightActions>().UseControllerName) && canActivate &&
-				!other.GetComponent<KnightActions>().GetHasSword())
-            {
-                rm.addRituel(indice);
-            }
-        }
- 
-            
-    }
-
     // Use this for initialization
     void Start () {
         rm = RituelManager.GetComponent<RituelManager>();
