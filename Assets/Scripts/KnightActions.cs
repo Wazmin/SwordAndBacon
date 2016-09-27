@@ -18,11 +18,8 @@ public class KnightActions : MonoBehaviour {
 	private bool ChargeEffectZoneIsActive= false;
 	public bool HasSword = false;
 	private bool MeleeTouchedBoss = false;
-	public GameObject SwordObj;
 
-	private RituelManager RManager;
 
-	private GameObject ChargeEffectZone;
 	private GameObject MeleeEffectZone;
 	private Movement MOV;
 	private Animator AN;
@@ -38,21 +35,15 @@ public class KnightActions : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		MeleeEffectZone = transform.Find("Mesh").transform.Find ("MeleeEffectZone").gameObject as GameObject;
-		RManager = GameObject.Find ("_GAMEMANAGER").GetComponent<RituelManager> ();
 		SwordGrabPoint = transform.Find ("Mesh").transform.Find ("SwordGrabPoint").gameObject as GameObject;
 		MOV = GetComponent<Movement> ();
 		AU = GetComponent<AudioSource> ();
 		SC = GetComponent<SoundCore> ();
-		ChargeEffectZone = transform.Find ("Mesh").transform.Find ("BodyEffectZone").gameObject as GameObject;
 		AN = GetComponentInChildren<Animator> ();
 	}
 
 	// Update is called once per frame
 	void Update () {
-		MeleeManage ();
-		UseManage ();
-		ChargeManage ();
-
         if (Input.GetButtonDown(MeleeControllerName))
         {
             /* AJOUT 23/09/2016 */
@@ -86,84 +77,16 @@ public class KnightActions : MonoBehaviour {
 
 	}
 
-	void ChargeManage(){
-		if (!ChargeEffectZoneIsActive && GetComponent<Movement>().IsDashing()) {
-			ChargeEffectZone.SetActive (true);
-			ChargeEffectZoneIsActive = true;
-			SC.PlaySound (gameObject, "Dash");
-//			AN.SetInteger ("State", 2);
-		}
-		else if (ChargeEffectZoneIsActive && !GetComponent<Movement>().IsDashing()) {
-			ChargeEffectZoneIsActive = false;
-			ChargeEffectZone.SetActive (false);
-		}
-
-	}
-
-	void UseManage(){
-		PickupTimeRemain -= Time.deltaTime;
-		if (Input.GetButtonDown (UseControllerName) && HasSword  && !MOV.InputLocked) {
-			DropSword ();
-		}
-	}
-
-	void OnTriggerStay(Collider other){
-		if (Input.GetButtonDown(UseControllerName) && other.tag == "MagicSword"  && !MOV.InputLocked) {
-			PickupSword (other.gameObject);
-		}
-
-		if (ChargeEffectZoneIsActive && other.tag == "Player") {
-			other.GetComponent<KnightActions> ().DropSword ();
-		}
-	}
-
-
 	public void PickupSword(GameObject sword){
-		if (HasSword || PickupTimeRemain > 0f) {
-			return;
-		}
-		HasSword = true;
-		PickupTimeRemain = PickupCD;
-	/*	MagicSword = sword;
-		MagicSword.transform.position = SwordGrabPoint.transform.position;
-		MagicSword.transform.rotation = SwordGrabPoint.transform.rotation;
-		MagicSword.transform.SetParent (SwordGrabPoint.transform);
-		MagicSword.SetActive (false); */
-		SwordObj.SetActive (true);
-		RManager.NotifySwordWasPickedUp ();
-		RManager.NotifySwordWasRemovedFromShrine ();
 		SC.PlaySound (gameObject, "Pickup");
-
-		return;
 	}
 
-	public void DropSword(){
-		if (!HasSword || PickupTimeRemain > 0f) {
-			return;
-		}
-		HasSword = false;
-		SwordObj.SetActive (false);
-	/*	MagicSword.SetActive (true);
-		MagicSword.transform.position = transform.position;
-		MagicSword.transform.rotation = transform.rotation;
-		MagicSword.transform.SetParent (null);
-		MagicSword = null; */
-		RManager.NotifySwordWasDropped ();
-		PickupTimeRemain = PickupCD;
-		SC.PlaySound (gameObject, "Pickup");
-
-	}
+	
 
 	public void BreakSword(){
 		HasSword = false;
 		Destroy (MagicSword);
-		SwordObj.SetActive (false);
-		RManager.resetNbRituel ();
 		SC.PlaySound (gameObject, "BossHit");
-	}
-
-	public void NotifyMeleeTouchedBoss(){
-		MeleeTouchedBoss = true;
 	}
 
 	public bool GetHasSword(){
