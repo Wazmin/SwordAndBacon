@@ -4,20 +4,31 @@ using System.Collections;
 public class GameManager1 : MonoBehaviour {
     private const int MAXRUNES = 6;
     private const int RUNESACTIVES = 3;
+    private const int MAXMAGICSWORD = 3;
 
     private int[] tabSequenceRituel = new int[RUNESACTIVES];
     public GameObject[] tabRunes = new GameObject[MAXRUNES];
     private int indiceSequence = 0;
 
+    // Gestion apparition disparition des Magics Swords
+    public GameObject[] tabMagicSwords = new GameObject[MAXMAGICSWORD];
+    private bool isActiveMagicSword;
+
+
 	// Use this for initialization
 	void Start () {
         CreateSequece();
-	}
+        InitSpotMagicSword();
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
-	
-	}
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            SpawnMagicSword();
+        }
+    }
 
     //create a random sequence to activate runes
     private void CreateSequece()
@@ -64,5 +75,37 @@ public class GameManager1 : MonoBehaviour {
             //prevoir l'action interface
         }   
         return result;
+    }
+
+    //init all the MagicSword
+    private void InitSpotMagicSword()
+    {
+        isActiveMagicSword = false;
+        for (int i = 0; i < MAXMAGICSWORD; i++)
+        {
+            tabMagicSwords[i].SetActive(false);
+        }
+    }
+
+    //Disable a MagicSword
+    public void DisableMagicSword(GameObject magicSword)
+    {
+        for(int i = 0; i< MAXMAGICSWORD; i++)
+        {
+            if(tabMagicSwords[i] == magicSword)
+            {
+                tabMagicSwords[i].SetActive(false);
+            }
+        }
+        isActiveMagicSword = false;
+    }
+
+    // Choose randomly a spot to spawn the sword
+    private void SpawnMagicSword()
+    {
+        if (isActiveMagicSword) return;
+        int rand = Random.Range(0, MAXMAGICSWORD - 1);
+        tabMagicSwords[rand].SetActive(true);
+        isActiveMagicSword = true;
     }
 }

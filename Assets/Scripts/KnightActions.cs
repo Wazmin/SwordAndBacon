@@ -6,8 +6,7 @@ public class KnightActions : MonoBehaviour {
 	public string MeleeControllerName = "BossMelee";
 
 	public float MeleeCD = 2f;
-	private GameObject MagicSword;
-	private GameObject SwordGrabPoint;
+	public GameObject SwordGrabPoint;
 
 	private float UseCD = 0.5f;
 	private float MeleeCDTimeRemaining = 0f;
@@ -31,18 +30,18 @@ public class KnightActions : MonoBehaviour {
     private int layerMeleeAction = 1 << 8;
     public float meleeRadius = 2.0f;
     public bool bossAtRange = false;
-    
+    private bool testBool=false;
 
 
 	// Use this for initialization
 	void Start () {
 		MeleeEffectZone = transform.Find("Mesh").transform.Find ("MeleeEffectZone").gameObject as GameObject;
-		SwordGrabPoint = transform.Find ("Mesh").transform.Find ("SwordGrabPoint").gameObject as GameObject;
 		MOV = GetComponent<Movement> ();
 		AU = GetComponent<AudioSource> ();
 		SC = GetComponent<SoundCore> ();
 		AN = GetComponentInChildren<Animator> ();
         MeleeEffectZone.SetActive(false);
+        SwordGrabPoint.SetActive(false);
 
     }
 
@@ -54,7 +53,12 @@ public class KnightActions : MonoBehaviour {
             Debug.Log("Action de Melee");
             DetectRune();
         }
-	}
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            BreakSword();
+        }
+    }
 
 
 	void MeleeManage(){
@@ -81,19 +85,22 @@ public class KnightActions : MonoBehaviour {
 
 	}
 
-	public void PickupSword(GameObject sword){
+	public void PickupSword(){
+        if (HasSword) return;
 		SC.PlaySound (gameObject, "Pickup");
         HasSword = true;
+        SwordGrabPoint.SetActive(true);
         MeleeEffectZone.SetActive(true);
 	}
 
 	
 
 	public void BreakSword(){
+        if (!HasSword) return;
 		HasSword = false;
         MeleeEffectZone.SetActive(false);
-		//Destroy (MagicSword);
-		SC.PlaySound (gameObject, "BossHit");
+        SwordGrabPoint.SetActive(false);
+        SC.PlaySound (gameObject, "BossHit");
 	}
 
 	public bool GetHasSword(){
