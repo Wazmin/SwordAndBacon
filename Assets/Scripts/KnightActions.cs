@@ -28,8 +28,10 @@ public class KnightActions : MonoBehaviour {
 
     /* AJOUT 23/09/2016 */
     public GameManager1 GameManager;
-    private int layerRunes = 1 << 8;
+    private int layerMeleeAction = 1 << 8;
     public float meleeRadius = 2.0f;
+    public bool bossAtRange = false;
+    
 
 
 	// Use this for initialization
@@ -40,7 +42,9 @@ public class KnightActions : MonoBehaviour {
 		AU = GetComponent<AudioSource> ();
 		SC = GetComponent<SoundCore> ();
 		AN = GetComponentInChildren<Animator> ();
-	}
+        MeleeEffectZone.SetActive(false);
+
+    }
 
 	// Update is called once per frame
 	void Update () {
@@ -79,13 +83,16 @@ public class KnightActions : MonoBehaviour {
 
 	public void PickupSword(GameObject sword){
 		SC.PlaySound (gameObject, "Pickup");
+        HasSword = true;
+        MeleeEffectZone.SetActive(true);
 	}
 
 	
 
 	public void BreakSword(){
 		HasSword = false;
-		Destroy (MagicSword);
+        MeleeEffectZone.SetActive(false);
+		//Destroy (MagicSword);
 		SC.PlaySound (gameObject, "BossHit");
 	}
 
@@ -96,7 +103,7 @@ public class KnightActions : MonoBehaviour {
     /* AJOUT 23/09/2016 */
     private void DetectRune()
     {
-        Collider[] hitColliders = Physics.OverlapSphere(transform.position, meleeRadius, layerRunes,QueryTriggerInteraction.Collide);
+        Collider[] hitColliders = Physics.OverlapSphere(transform.position, meleeRadius, layerMeleeAction,QueryTriggerInteraction.Collide);
         if(hitColliders.Length > 0)
         {
             GameManager.TryToActiveRune(hitColliders[0].gameObject);
@@ -105,6 +112,11 @@ public class KnightActions : MonoBehaviour {
         {
             Debug.Log("Aucun collider detecté");
         }
+    }
+
+    private void HitBoss()
+    {
+
     }
 
 }
