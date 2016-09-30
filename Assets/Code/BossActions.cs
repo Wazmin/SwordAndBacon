@@ -34,9 +34,8 @@ public class BossActions : MonoBehaviour {
     void Start () {
 		DeathRayCastPoint = transform.Find("Mesh").transform.Find("DeathRayCastPoint").gameObject as GameObject;
 		MeleeEffectZone = transform.Find("Mesh").transform.Find ("MeleeEffectZone").gameObject as GameObject;
-		MeleeEffectZone.GetComponent<DealDamage> ().SetDamage (MeleeDamage);
+
 		ChargeEffectZone = transform.Find ("Mesh").transform.Find ("BodyEffectZone").gameObject as GameObject;
-		ChargeEffectZone.GetComponent<DealDamage> ().SetDamage (ChargeDamage);
 		AN = GetComponentInChildren<Animator> ();
 		AU = GetComponent<AudioSource> ();
 		SC = GetComponent<SoundCore> ();

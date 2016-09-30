@@ -13,6 +13,7 @@ public class DealDamage : MonoBehaviour {
 	void Start () {
 		GAME = GameObject.Find ("_GAMEMANAGER").gameObject.GetComponent<gameManager> ();
 		RManager = GameObject.Find ("_GAMEMANAGER").gameObject.GetComponent<RituelManager> ();
+
 		if (GAME == null) {
 			Debug.LogError ("GAME MANAGER NOT FOUND");
 		}

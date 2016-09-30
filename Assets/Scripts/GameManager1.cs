@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class GameManager1 : MonoBehaviour {
@@ -8,18 +9,35 @@ public class GameManager1 : MonoBehaviour {
 
     private int[] tabSequenceRituel = new int[RUNESACTIVES];
     public GameObject[] tabRunes = new GameObject[MAXRUNES];
+    public GameObject[] tabFlammeRunes = new GameObject[MAXRUNES];
     private int indiceSequence = 0;
+    public Image[] tabImageRituel = new Image[RUNESACTIVES]; 
 
     // Gestion apparition disparition des Magics Swords
     public GameObject[] tabMagicSwords = new GameObject[MAXMAGICSWORD];
     private bool isActiveMagicSword;
 
+    // Gestion des points de vie en %
+    public const float MAXLIFE = 100.0f;
+    private float bossLife;
+    private float knightsLife;
 
-	// Use this for initialization
-	void Start () {
+
+
+    //partie EVENT UI
+    // VIE DU BOSS
+    public delegate void MajBossLife(float _bossLife);
+    public static event MajBossLife OnChangeBossLife;
+    // VIE DES CHEVALIERS
+    public delegate void MajKnightsLife(float _kinghtsLife);
+    public static event MajKnightsLife OnChangeKnightsLife;
+    
+
+    // Use this for initialization
+    void Start () {
         CreateSequece();
         InitSpotMagicSword();
-
+        InitLife();
     }
 	
 	// Update is called once per frame
@@ -35,7 +53,20 @@ public class GameManager1 : MonoBehaviour {
     {
         int nbRituelSelectionne = 0;
         int idRituel = -1;
-        for (int i = 0; i < RUNESACTIVES; i++) tabSequenceRituel[i] = -1;
+
+        // initialisation de la tabSequece a -1
+        for (int i = 0; i < RUNESACTIVES; i++)
+        {
+            tabSequenceRituel[i] = -1;
+            tabImageRituel[i].enabled = false;
+        }
+
+        //desactivation des flammes
+        for(int i = 0; i< MAXRUNES; i++)
+        {
+            tabFlammeRunes[i].SetActive(false);
+        }
+
         while (nbRituelSelectionne < RUNESACTIVES)
         {
             idRituel = Random.Range(0, MAXRUNES); // random entre 0 et 5 inclus
@@ -66,13 +97,23 @@ public class GameManager1 : MonoBehaviour {
     //tentative d'activation d'une rune
     public bool TryToActiveRune(GameObject runeTestee)
     {
+        if (isActiveMagicSword) return false;
         bool result = false;
-        if (indiceSequence >= 0 && runeTestee == tabRunes[indiceSequence]) // activation OK
+        if (indiceSequence >= 0 && runeTestee == tabRunes[tabSequenceRituel[indiceSequence]]) // activation OK
         {
             Debug.Log("Activation de la rune "+(indiceSequence+1));
             result = true;
-            if (++indiceSequence > 2) indiceSequence = -1;
             //prevoir l'action interface
+            for(int i =0; i < MAXRUNES; i++)
+            {
+                if(tabRunes[i] == runeTestee)
+                {
+                    tabFlammeRunes[i].SetActive(true);
+                }
+            }
+            // activation de l'image rituel correpondant
+            tabImageRituel[indiceSequence].enabled = true;
+            if (++indiceSequence > 2) indiceSequence = -1;
         }   
         return result;
     }
@@ -107,5 +148,13 @@ public class GameManager1 : MonoBehaviour {
         int rand = Random.Range(0, MAXMAGICSWORD - 1);
         tabMagicSwords[rand].SetActive(true);
         isActiveMagicSword = true;
+    }
+
+    // initialisation des points de vie des joueurs
+    private void InitLife()
+    {
+        bossLife = MAXLIFE;
+        knightsLife = MAXLIFE;
+        //prevoir maj UI
     }
 }

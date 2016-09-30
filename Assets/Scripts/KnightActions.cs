@@ -42,7 +42,7 @@ public class KnightActions : MonoBehaviour {
 		AN = GetComponentInChildren<Animator> ();
         MeleeEffectZone.SetActive(false);
         SwordGrabPoint.SetActive(false);
-
+        Debug.Log(AN);
     }
 
 	// Update is called once per frame
@@ -89,6 +89,7 @@ public class KnightActions : MonoBehaviour {
         if (HasSword) return;
 		SC.PlaySound (gameObject, "Pickup");
         HasSword = true;
+        AN.SetBool("Sword", true);
         SwordGrabPoint.SetActive(true);
         MeleeEffectZone.SetActive(true);
 	}
@@ -98,6 +99,7 @@ public class KnightActions : MonoBehaviour {
 	public void BreakSword(){
         if (!HasSword) return;
 		HasSword = false;
+        AN.SetBool("Sword", false);
         MeleeEffectZone.SetActive(false);
         SwordGrabPoint.SetActive(false);
         SC.PlaySound (gameObject, "BossHit");
@@ -110,6 +112,8 @@ public class KnightActions : MonoBehaviour {
     /* AJOUT 23/09/2016 */
     private void DetectRune()
     {
+        AN.SetTrigger("hit");
+        Debug.Log("Animation lancée");
         Collider[] hitColliders = Physics.OverlapSphere(transform.position, meleeRadius, layerMeleeAction,QueryTriggerInteraction.Collide);
         if(hitColliders.Length > 0)
         {
