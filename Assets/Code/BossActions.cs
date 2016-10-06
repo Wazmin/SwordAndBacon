@@ -54,8 +54,10 @@ public class BossActions : MonoBehaviour {
 
 		if (Input.GetButtonDown(DeathRayControllerName) && DeathRayCDTimeRemaining <= 0f){
 			GameObject go = Instantiate(DeathRayProjectile, DeathRayCastPoint.transform.position, DeathRayCastPoint.transform.rotation) as GameObject;
+            //rustine destroy
+            Destroy(go, 1.0f);
 			if (go != null) {
-				go.GetComponent<DealDamage> ().SetDamage (DeathRayDamage);
+				//go.GetComponent<DealDamage> ().SetDamage (DeathRayDamage);
 			}
 			AN.SetInteger ("State", 4);
 			SC.PlaySound (gameObject, "BossStomp");

@@ -23,7 +23,6 @@ public class GameManager1 : MonoBehaviour {
     private float knightsLife;
 
 
-
     //partie EVENT UI
     // VIE DU BOSS
     public delegate void MajBossLife(float _bossLife);
@@ -155,6 +154,9 @@ public class GameManager1 : MonoBehaviour {
     {
         bossLife = MAXLIFE;
         knightsLife = MAXLIFE;
-        //prevoir maj UI
+        if (OnChangeBossLife != null)
+            OnChangeBossLife(bossLife);
+        if (OnChangeKnightsLife != null)
+            OnChangeKnightsLife(knightsLife);
     }
 }

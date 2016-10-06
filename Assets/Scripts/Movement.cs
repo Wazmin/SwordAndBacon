@@ -48,6 +48,8 @@ public class Movement : MonoBehaviour {
 		}
         RB.AddForce(newMove * 50f);
 
+       
+
 		if (Input.GetButtonDown(DashControllerName) && DashCD <= 0f && !InputLocked)
         {
             Vector3 dashf = new Vector3();

@@ -42,7 +42,7 @@ public class KnightActions : MonoBehaviour {
 		AN = GetComponentInChildren<Animator> ();
         MeleeEffectZone.SetActive(false);
         SwordGrabPoint.SetActive(false);
-        Debug.Log(AN);
+
     }
 
 	// Update is called once per frame
@@ -51,7 +51,7 @@ public class KnightActions : MonoBehaviour {
         {
             /* AJOUT 23/09/2016 */
             Debug.Log("Action de Melee");
-            DetectRune();
+            MeleeAction();
         }
 
         if (Input.GetKeyDown(KeyCode.D))
@@ -110,7 +110,7 @@ public class KnightActions : MonoBehaviour {
 	}
 
     /* AJOUT 23/09/2016 */
-    private void DetectRune()
+    private void MeleeAction()
     {
         AN.SetTrigger("hit");
         Debug.Log("Animation lancée");
