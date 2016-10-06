@@ -7,13 +7,11 @@ public class DealDamage : MonoBehaviour {
 
 
 	private float damageDeal=15f;
-	private gameManager GAME;
-	private RituelManager RManager;
+	private GameManager1 GAME;
+
 	// Use this for initialization
 	void Start () {
-		GAME = GameObject.Find ("_GAMEMANAGER").gameObject.GetComponent<gameManager> ();
-		RManager = GameObject.Find ("_GAMEMANAGER").gameObject.GetComponent<RituelManager> ();
-
+		GAME = GameObject.Find ("_GAMEMANAGER").gameObject.GetComponent<GameManager1> ();
 		if (GAME == null) {
 			Debug.LogError ("GAME MANAGER NOT FOUND");
 		}
@@ -31,10 +29,10 @@ public class DealDamage : MonoBehaviour {
 
 	void OnTriggerEnter(Collider o){
 		if (bossAffect && o.GetComponent<BossActions> () != null) {
-			GAME.bossPrendDegats (RManager.degatRituel());
+			GAME.bossPrendDegats (10.0f);
 			gameObject.SetActive(false);
 		} else if (knightAffect && o.GetComponent<KnightActions> () !=null) {
-			GAME.playerPrendDegats (damageDeal);
+			GAME.playerPrendDegats (15.0f);
 			if (gameObject.tag == "pike") {
 				DestroyObj ();
 			}

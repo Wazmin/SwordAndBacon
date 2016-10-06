@@ -159,4 +159,15 @@ public class GameManager1 : MonoBehaviour {
         if (OnChangeKnightsLife != null)
             OnChangeKnightsLife(knightsLife);
     }
+
+    // Degat du jeu
+    public void bossPrendDegats(float _degats)
+    {
+
+    }
+
+    public void playerPrendDegats(float _degats)
+    {
+
+    }
 }
