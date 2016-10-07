@@ -29,10 +29,10 @@ public class DealDamage : MonoBehaviour {
 
 	void OnTriggerEnter(Collider o){
 		if (bossAffect && o.GetComponent<BossActions> () != null) {
-			GAME.bossPrendDegats (10.0f);
+			GAME.bossPrendDegats ();
 			gameObject.SetActive(false);
 		} else if (knightAffect && o.GetComponent<KnightActions> () !=null) {
-			GAME.playerPrendDegats (15.0f);
+			GAME.playerPrendDegats ();
 			if (gameObject.tag == "pike") {
 				DestroyObj ();
 			}

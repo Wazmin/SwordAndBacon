@@ -8,6 +8,7 @@ public class detectBoss : MonoBehaviour {
     {
         if(KA != null)
         {
+            if(other.tag == "Boss")
             KA.bossAtRange = true;
         }
     }
@@ -16,7 +17,8 @@ public class detectBoss : MonoBehaviour {
     {
         if (KA != null)
         {
-            KA.bossAtRange = false;
+            if (other.tag == "Boss")
+                KA.bossAtRange = false;
         }
     }
 

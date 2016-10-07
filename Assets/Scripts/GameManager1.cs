@@ -30,6 +30,9 @@ public class GameManager1 : MonoBehaviour {
     // VIE DES CHEVALIERS
     public delegate void MajKnightsLife(float _kinghtsLife);
     public static event MajKnightsLife OnChangeKnightsLife;
+
+    // GESTION DE DEGATS
+    public float degatsEpeeContreBoss;
     
 
     // Use this for initialization
@@ -161,12 +164,15 @@ public class GameManager1 : MonoBehaviour {
     }
 
     // Degat du jeu
-    public void bossPrendDegats(float _degats)
+    public void bossPrendDegats()
     {
+        bossLife -= degatsEpeeContreBoss;
+        if (OnChangeBossLife != null)
+            OnChangeBossLife(bossLife);
 
     }
 
-    public void playerPrendDegats(float _degats)
+    public void playerPrendDegats()
     {
 
     }

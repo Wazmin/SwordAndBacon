@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class KnightActions : MonoBehaviour {
 	public string UseControllerName = "Knight1Melee";
@@ -113,11 +114,17 @@ public class KnightActions : MonoBehaviour {
     private void MeleeAction()
     {
         AN.SetTrigger("hit");
-        Debug.Log("Animation lancée");
+
         Collider[] hitColliders = Physics.OverlapSphere(transform.position, meleeRadius, layerMeleeAction,QueryTriggerInteraction.Collide);
         if(hitColliders.Length > 0)
         {
-            GameManager.TryToActiveRune(hitColliders[0].gameObject);
+            List<GameObject> runeProche = new List<GameObject>();
+            runeProche = IsThereA("Rune", hitColliders);
+            if(runeProche != null)
+            {
+                GameManager.TryToActiveRune(runeProche[0]);
+            }
+            //GameManager.TryToActiveRune(hitColliders[0].gameObject);
         }
         else
         {
@@ -127,7 +134,32 @@ public class KnightActions : MonoBehaviour {
 
     private void HitBoss()
     {
+        if (bossAtRange)
+        {
+            GameManager.bossPrendDegats();
+        }
+    }
 
+    
+
+    // sous fonction de recherche d'un collider précis
+    // retourne une liste d'objets ou null si aucun objet ne correspond
+    private List<GameObject> IsThereA(string tagName, Collider[] listOfColliders)
+    {
+        int i = 0;
+        int listSize = listOfColliders.Length;
+        //cas de la liste vide
+        if (listSize < 1) return null;
+        List<GameObject> resultGO = new List<GameObject>();
+        while (i++ < listSize)
+        {
+             if(listOfColliders[i].tag == tagName)
+            {
+                resultGO.Add(listOfColliders[i].GetComponent<GameObject>());
+            }
+        }
+
+        return resultGO;
     }
 
 }
